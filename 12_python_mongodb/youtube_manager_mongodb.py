@@ -8,8 +8,7 @@ try:
 
     client = pymongo.MongoClient(
         connection_string,
-        tlsAllowInvalidCertificates=True,
-        serverSelectionTimeoutMS=10000
+        tlsAllowInvalidCertificates=True
     )
 
     # Test the connection
